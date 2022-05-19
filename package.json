@@ -1,0 +1,29 @@
+{
+  "name": "goit-node-hw-01",
+  "version": "1.0.0",
+  "description": "Домашнее задание 1\r Шаг 1\r Инициализируй npm в проекте\r В корне проекта создай файл index.js\r Поставь пакет nodemon как зависимость разработки (devDependencies)\r В файле package.json добавь \"скрипты\" для запуска index.js\r Скрипт start который запускает index.js с помощью node\r Скрипт start:dev который запускает index.js с помощью nodemon\r Шаг 2\r В корне проекта создай папку db. Для хранения контактов скачай и используй файл contacts.json, положив его в папку db.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tetiana-Horban/goit-node-hw-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tetiana-Horban/goit-node-hw-01/issues"
+  },
+  "homepage": "https://github.com/Tetiana-Horban/goit-node-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "commander": "^9.2.0",
+    "uuid": "^8.3.2"
+  }
+}
